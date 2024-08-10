@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBarMenu</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <nav class="sidebar close">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="logo.jpeg"  alt="logo">
+            </span>
+            <div class="text header-text">
+                <span class="name">ISRO</span>
+                <span class="proffession">Space Organisation</span>
+            </div>
+        </div>
+        <i class='bx bx-chevron-right toggle'></i>
+    </header>
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                
+                <i class='bx bx-search icon mobiRes' ></i>
+                
+                    <input type="search" placeholder="Search...">
+                
+            </li>
+            <ul class="menu-links">
+                <li class="nav-link">
+                        <a href="#">
+                        <i class='bx bx-home-alt icon  mobiRes'></i>
+                        <span class="text nav-text" id="reText">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">
+                    <i class='bx bx-bar-chart-alt-2 icon  mobiRes'></i>
+                    <span class="text nav-text" id="reText">Revenue</span>
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="#">
+                <i class='bx bx-bell icon  mobiRes'></i>
+                <span class="text nav-text" id="reText">Notification</span>
+            </a>
+        </li>
+        <li class="nav-link">
+            <a href="#">
+            <i class='bx bx-pie-chart-alt icon  mobiRes'></i>
+            <span class="text nav-text" id="reText">Analytics</span>
+        </a>
+    </li>
+    <li class="nav-link">
+        <a href="#">
+        <i class='bx bx-news icon  mobiRes'></i>
+        <span class="text nav-text" id="reText">Flash-News</span>
+    </a>
+</li>
+<li class="nav-link">
+    <a href="#">
+    <i class='bx bxs-contact icon  mobiRes'></i>
+    <span class="text nav-text" id="reText">Contact Us</span>
+</a>
+</li>
+            </ul>
+        </div>
+        <div class="bottom-content">
+            <li class="mode" id="">
+                <div class="moon-sun">
+                    <i class="bx bx-moon icon moon   "></i>
+                    <i class="bx bx-sun  icon sun  "></i>
+                </div>
+
+                <span class="mode-text text">Dark Mode</span>
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+
+            </li>
+        </div>
+    </div>
+</nav>
+<section class="home">
+<div class="header">
+    <a class="s-jaytey" href="#">
+        <img src="satya.avif" class="satyamev-jayte" alt="logo-sj">
+    </a>
+    <div class="goi">
+    <h1>Indian Space Research and Organisation </h1>
+    <h3 style="text-align: center; word-spacing: 10px; font-weight: 800; font-size:20px;">Government of India</h3>
+    <p style="word-spacing: 8px;"><strong>भारत सरकार</strong></p>
+</div>
+    <img src="images.png" class="flag" alt="flag">
+</div>
+
+
+
+<!--Flash news section begins-->
+<div class="flash">
+<div class="flash-news">
+    <div class="label">Flash-News</div>
+    
+
+    <ul class="headlines">
+        <li class="active">India celebrates its maiden National Space Day</li>
+        <li class="">ISRO completes its RLV technology demonstrations through LEX trio</li>
+        <li class="">
+            Dr. S. Somanath, Chairman, ISRO  will be LIVE on Instagram on August 3, 2024, at 6 PM IST</li>
+        <li>
+            Reusable Launch Vehicle Landing Experiment from off-nominal initial conditions is successfully
+            accomplished.</li>
+    </ul>
+    <!-- <div class="headlines">
+        <span class="active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam aut quisquam eius voluptate. Voluptates laudantium nisi quia quidem similique.</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam aut quisquam eius voluptate. Voluptates laudantium nisi quia quidem similique.</span>
+    </div> -->
+   
+</div>
+</div>
+
+
+<!-- VIDEO SHOW BEGIN -->
+
+<div class="media">
+    <div class="gridVideo">
+        
+        <div class="video">                                                                                                                                                    
+            <video width="100%" height="auto" autoplay  controls>
+                <source src="testVideo.webm" type="video/webm">
+                
+            </video>
+        </div>
+               <div class="aboutVideo">
+                   <h1 class="videotext">ISRO conducts flight experiment of Air Breathing Propulsion System</h1>
+        
+                    <div class="subtext">
+                        <strong class="date">July 22, 2024</strong>
+                           
+                         <p class="aboutMission">
+                           
+                           The Indian Space Research Organisation (ISRO) successfully carried out the second experimental flight 
+                           for the demonstration of Air Breathing Propulsion Technology at 07:00 am today.
+                            The Propulsion systems were symmetrically mounted on either side of a RH-560 Sounding rocket
+                             and launched from Satish Dhawan Space Centre, Sriharikota. The flight test achieved satisfactory
+                         </p>
+                   
+                       
+                    </div>
+
+                </div>
+    </div>
+  
+</div>
+
+
+
+
+
+</section>
+
+
+<script src="menu.js"></script>
+</body>
+</html>
